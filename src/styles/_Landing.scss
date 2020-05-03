@@ -1,0 +1,31 @@
+.landing {
+  background: url("../images/landing.jpg") no-repeat;
+  height: 94vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  .heading-box {
+    margin-top: -4rem;
+    text-align: center;
+    z-index: 1;
+    &__heading {
+      margin: 1rem 0;
+      color: white;
+    }
+    &__text {
+      color: white;
+    }
+  }
+}

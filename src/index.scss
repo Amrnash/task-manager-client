@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+  height: 100%;
+}
+.error-msg {
+  color: red;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  margin-left: 0.5rem;
+}
+.completed {
+  text-decoration: line-through;
+  color: lightblue;
+}
+$main-color: rgb(86, 86, 212);
+@import "./styles/Nav";
+@import "./styles/Landing";
+@import "./styles/SignUp";
+@import "./styles/MyTasks";
